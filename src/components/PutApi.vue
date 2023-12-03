@@ -82,7 +82,6 @@
 
 <script>
 import GetProduct from "./GetProduct.vue";
-import { Toast } from "bootstrap";
 export default {
   components: {
     GetProduct,

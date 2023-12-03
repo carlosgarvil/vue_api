@@ -27,7 +27,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
   <div class="container">
     <RouterView />
   </div>
-  
 </template>
 
 <style scoped>
