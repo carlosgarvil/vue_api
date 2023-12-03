@@ -24,5 +24,10 @@ a,
 .nav-link:hover{
   color:#41b883 !important;
 }
-
+.form-floating {
+  margin: 10px;
+}
+textarea {
+  height: 100% !important;
+}
 

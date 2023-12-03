@@ -52,6 +52,7 @@ export default {
             return description.substring(0, 50) + '...';
         },
     },
+    
 };
 </script>
     
