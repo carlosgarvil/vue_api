@@ -77,15 +77,6 @@ export default {
         }
         //add animation to the row  to be deleted
         const data = await response.json();
-        this.products = this.products.map((product) => {
-          if (product.id === data.id) {
-            // Si el id coincide, actualiza el producto
-            console.log("match");
-            return data;
-          }
-          // Si el id no coincide, devuelve el producto sin cambios
-          return product;
-        });
         const row = document.getElementById("product" + id);
         row.classList.add("animate-cell");
         //wait for the animation to finish
